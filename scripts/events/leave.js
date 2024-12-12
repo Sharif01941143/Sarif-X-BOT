@@ -51,7 +51,7 @@ module.exports = {
 				// {time}       : time
 				// {session}    : session
 
-				let { leaveMessage = getLang("চলে-যাউ-বহুদূর-,আর-ফিরে-এসো-না") } = threadData.data;
+				let { leaveMessage = getLang(" chole-jau-bohudur-ar-fire-eso-na") } = threadData.data;
 				const form = {
 					mentions: leaveMessage.match(/\{userNameTag\}/g) ? [{
 						tag: userName,
